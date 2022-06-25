@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-1{
+    display: flex;
+    height: 30px;
+    position: relative;
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-family:'Baloo Bhaijaan 2', cursive;
+}
+nav{
+    font-family:'Baloo Bhaijaan 2', cursive;
+}
+nav ul{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: white;
+    color: black;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 200px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+#home{
+    width: 100%;
+    height: 100vh; 
+    padding: 3px 28px;
+    justify-content: center;
+    text-align: center;
+    background-image: url('5.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family:'Baloo Bhaijaan 2', cursive;
+    
+}
+#home p{
+    font-size: 20px;
+}
+.rakhi{
+    background-color: burlywood;
+    text-align: center;
+    justify-content: center;
+}
+.container-3{
+    display: flex;
+    
+}
+.container-3 h5{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.ganesh{
+    background-color: burlywood;
+    text-align: center;
+    justify-content: center;
+}
+.container-4{
+    display: flex;
+}
+.container-4 img{
+    height: 270px;
+}
+.container-4 h5{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.lim{
+    background-color: burlywood;
+    font-family:'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+    justify-content: center;
+}
+.container-5{
+    display: flex;
+}
+.container-5 h5{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.carousel-inner img{
+    height: 80vh;
+    width: 100vh;
+}
+.incense{
+    background-color: burlywood;
+
+}
+.container-6{
+    display: flex;
+}
+.container-6 img{
+    height: 250px;
+}
+.container-7{
+    justify-content: center;
+    text-align: center;
+    background-color: burlywood;
+    font-family:'Baloo Bhaijaan 2', cursive;
+}
+.bottom{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: pink;
+}
+.bottom img{
+    width: 200px;
+    padding: 0 8px;
+}
+footer{
+    font-family:'Baloo Bhaijaan 2', cursive;
+    background-color: pink;
+    color: white;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+    display: inline;
+}
+footer div ul{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+}
+footer div ul li{
+    padding: 0 12px;
+}
+footer ul li{
+    cursor: pointer;
+}
+
